@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Plato</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+
+    <div class="SeccionArriba">
+
+      <div class="ArmarPlato">
+        <h2 class="ArmarPlatoTexto">Arma tu plato</h2>
+      </div>
+      <div class="AlimentosDeseados">
+        <h2 class="AlimentosDeseadosTexto">Selecciona los alimentos deseados</h2>
+      </div>
+
+    </div>
+
+    <div class="Plato">
+      <img class="ImagenPlato"src="img/plato.png" alt="Plato Principal">
+    </div>
+
+
+
+
+    <div id="comidas" class="comidas">
+
+      <div class="Frutas">
+        <a href="#frutas"><img onclick="OpcionesParaFrutas();" src="img/frutas.png" alt=""></a>
+      </div>
+
+      <div class="FrutosSecos">
+        <a href="#frutos"><img onclick="OcultarOpcionesParaFrutas();" src="img/frutosseco.png" alt=""></a>
+
+      </div>
+      <div class="Verduras">
+        <img src="img/verduras.png" alt="Verduras">
+      </div>
+      <div class="Cereales">
+        <img src="img/cereales.png" alt="Cereales">
+      </div>
+
+    </div>
+
+
+
+    <div id="OpcionesFrutas">
+      <div class="OpcionesNaranja">
+        <a href="#naranja"><img onclick="Naranja();" src="img/naranja.png" alt=""></a>
+      </div>
+      <div class="OpcionesLimon">
+        <a href="#limon"><img onclick="Limon();" src="img/limon.png" alt=""></a>
+      </div>
+      <div class="OpcionesFrutilla">
+        <a href="#frutilla"><img onclick="Frutilla();" src="img/frutilla.png" alt=""></a>
+      </div>
+      <div class="OpcionesManzana">
+        <a href="#manzana"><img onclick="Manzana();" src="img/manzana.png" alt=""></a>
+      </div>
+    </div>
+
+    <div id="OpcionesFrutos">
+      <div class="OpcionesAlmendra">
+        <a href="#almendra"><img onclick="Almendra();" src="img/almendra.png" alt=""></a>
+      </div>
+      <div class="OpcionesNuez">
+        <a href="#nuez"><img onclick="Nuez();" src="img/nuez.png" alt=""></a>
+      </div>
+      <div class="OpcionesFrutilla">
+        <a href="#mani"><img onclick="Mani();" src="img/mani.png" alt=""></a>
+      </div>
+
+    </div>
+
+    <div id="OpcionesVerduras">
+      <div class="OpcionesTomate">
+        <a href="#tomate"><img onclick="Tomate();" src="img/tomate.png" alt=""></a>
+      </div>
+      <div class="OpcionesBrocoli">
+        <a href="#brocoli"><img onclick="Brocoli();" src="img/brocoli.png" alt=""></a>
+      </div>
+      <div class="OpcionesZanahoria">
+        <a href="#zanahoria"><img onclick="Zanahoria();" src="img/zanahoria.png" alt=""></a>
+      </div>
+
+    </div>
+
+    <div id="OpcionesCereales">
+      <div class="OpcionesTrigo">
+        <a href="#trigo"><img onclick="Trigo();" src="img/trigo.png" alt=""></a>
+      </div>
+      <div class="OpcionesMaiz">
+        <a href="#maiz"><img onclick="Maiz();" src="img/maiz.png" alt=""></a>
+      </div>
+      <div class="OpcionesArroz">
+        <a href="#arroz"><img onclick="Arroz();" src="img/Arroz.png" alt=""></a>
+      </div>
+      <div class="OpcionesAvena">
+        <a href="#avena"><img onclick="Avena();" src="img/avena.png" alt=""></a>
+      </div>
+    </div>
+
+    <div id="PlatoConFrutas">
+      <div class="naranja2">
+        <img src="img/naranja2.png" alt="">
+      </div>
+      <div class="PlatoDelCostado">
+        <img src="img/platoNaranja.png" alt="">
+      </div>
+      <div class="VitaminaAnaranja">
+        <img src="img/vitaminaA.png" alt="">
+      </div>
+      <div class="CartelVerdeNaranja">
+        <img src="img/CartelVerdeVitaminaA.png" alt="">
+      </div>
+    </div>
+
+
+  <div id="PlatoConFrutasYLimon">
+    <div class="Limon2">
+      <img src="img/limon2.png" alt="">
+    </div>
+    <div class="PlatoDelCostadoLimon">
+      <img src="img/platoLimon.png" alt="">
+    </div>
+    <div class="VitaminaClimon">
+      <img src="img/vitaminaC.png" alt="">
+    </div>
+    <div class="CartelVerdeLimon">
+      <img src="img/CartelVerdeVitaminaC.png" alt="">
+    </div>
+  </div>
+
+  <div id="PlatoConFrutasYFrutilla">
+    <div class="Frutilla2">
+      <img src="img/fresa.png" alt="">
+    </div>
+    <div class="PlatoDelCostadoFrutilla">
+      <img src="img/platoFrutilla.png" alt="">
+    </div>
+    <div class="VitaminaEfrutilla">
+      <img src="img/vitaminaE.png" alt="">
+    </div>
+    <div class="CartelVerdeFrutilla">
+      <img src="img/CartelVerdeVitaminaE.png" alt="">
+    </div>
+  </div>
+
+  <div id="PlatoConFrutasYManzana">
+    <div class="Manzana2">
+      <img src="img/manzana2.png" alt="">
+    </div>
+    <div class="PlatoDelCostadoManzana">
+      <img src="img/platoManzana.png" alt="">
+    </div>
+    <div class="VitaminaPotasio">
+      <img src="img/potasio.png" alt="">
+    </div>
+    <div class="CartelVerdePotasio">
+      <img src="img/CartelVerdePotasio.png" alt="">
+    </div>
+  </div>
+
+
+  </body>
+</html>

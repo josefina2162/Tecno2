@@ -1,0 +1,276 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.ArmarPlato{
+background-color: #1C792B;
+margin-left: 40px;
+margin-right: 150px;
+}
+
+.ArmarPlatoTexto{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+ color: white;
+ padding-left: 20px;
+ padding-bottom: 5px;
+ padding-top: 5px;
+}
+
+.AlimentosDeseados{
+  background-color: #60A168;
+  margin-left: 40px;
+  margin-right: 800px;
+  margin-top: -30px;
+}
+
+.AlimentosDeseadosTexto{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.Plato{
+margin-left: 450px;
+}
+
+.ImagenPlato{
+  height: 450px;
+}
+
+.Frutas{
+  margin-left: 400px;
+}
+.Frutas img:hover{
+  transform: scale(1.15);
+}
+
+.FrutosSecos{
+  margin-left: 550px;
+  margin-top: -100px;
+}
+.FrutosSecos img:hover{
+  transform: scale(1.15);
+}
+
+.Verduras{
+    margin-left: 700px;
+    margin-top: -140px;
+  }
+  .Verduras img:hover{
+    transform: scale(1.15);
+  }
+
+  .Cereales{
+    margin-left: 850px;
+    margin-top: -110px;
+  }
+  .Cereales img:hover{
+    transform: scale(1.15);
+  }
+
+#OpcionesFrutas{
+  display: none;
+}
+
+#OpcionesFrutos{
+  display: none;
+}
+
+#OpcionesVerduras{
+  display: none;
+}
+
+#OpcionesCereales{
+  display: none;
+}
+
+.OpcionesNaranja{
+  margin-top: -120px;
+  margin-left: 300px;
+}
+.OpcionesNaranja img:hover{
+  transform: scale(1.15);
+}
+.OpcionesLimon{
+  margin-top: -120px;
+  margin-left: 370px;
+}
+.OpcionesLimon img:hover{
+  transform: scale(1.15);
+}
+.OpcionesFrutilla{
+  margin-top: -60px;
+  margin-left: 440px;
+}
+.OpcionesFrutilla img:hover{
+  transform: scale(1.15);
+}
+.OpcionesManzana{
+  margin-top: -20px;
+  margin-left: 510px;
+}
+.OpcionesManzana img:hover{
+  transform: scale(1.15);
+}
+
+
+.naranja2{
+  margin-left: 580px;
+  margin-top: -350px;
+}
+
+.Limon2{
+  margin-left: 680px;
+  margin-top: -370px;
+
+}
+
+.Frutilla2{
+  margin-left: 680px;
+  margin-top: -370px;
+
+}
+
+.Manzana2{
+  margin-left: 630px;
+  margin-top: -330px;
+}
+
+.PlatoDelCostado{
+  margin-top: -130px;
+  margin-left: 950px;
+}
+.PlatoDelCostadoLimon{
+  margin-top: -130px;
+  margin-left: 950px;
+}
+
+.PlatoDelCostadoFrutilla{
+  margin-top: -180px;
+  margin-left: 950px;
+}
+
+.PlatoDelCostadoManzana{
+  margin-top: -220px;
+  margin-left: 950px;
+}
+
+#PlatoConFrutas{
+  display: none;
+}
+
+#PlatoConFrutasYLimon{
+  display: none;
+}
+
+#PlatoConFrutasYFrutilla{
+  display: none;
+}
+
+#PlatoConFrutasYManzana{
+  display: none;
+}
+
+#PlatoConNueces{
+  display: none;
+}
+
+#PlatoAlmendras{
+  display: none;
+}
+
+#PlatoMani{
+  display: none;
+}
+
+#PlatoTomate{
+  display: none;
+}
+
+#PlatoBrocoli{
+  display: none;
+}
+
+#PlatoZanahoria{
+  display: none;
+}
+
+#PlatoEspinaca{
+  display: none;
+}
+
+#PlatoTrigo{
+  display: none;
+}
+
+#PlatoMaiz{
+  display: none;
+}
+
+#PlatoArroz{
+  display: none;
+}
+
+#PlatoAvena{
+  display: none;
+}
+
+
+.VitaminaAnaranja{
+  margin-left: 80px;
+  margin-top: -300px;
+}
+
+.CartelVerdeNaranja{
+  margin-left: 550px;
+  margin-top: -320px;
+}
+
+.VitaminaClimon{
+  margin-left: 80px;
+  margin-top: -300px;
+}
+
+.CartelVerdeLimon{
+  margin-left: 550px;
+  margin-top: -320px;
+}
+
+.VitaminaEfrutilla{
+  margin-left: 80px;
+  margin-top: -300px;
+}
+
+.CartelVerdeFrutilla{
+  margin-left: 550px;
+  margin-top: -280px;
+}
+
+.VitaminaPotasio{
+  margin-left: 80px;
+  margin-top: -300px;
+}
+
+.CartelVerdePotasio{
+  margin-left: 550px;
+  margin-top: -280px;
+}
+
+.cuadroD {
+  margin-top: -530px;
+  margin-left: 1030px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+
+}
+
+.cuadroD h3 {
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+font-weight:bolder;
+
+}
