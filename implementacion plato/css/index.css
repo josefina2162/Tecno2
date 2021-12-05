@@ -42,14 +42,14 @@ margin-left: 450px;
 }
 
 .Frutas{
-  margin-left: 400px;
+  margin-left: 350px;
 }
 .Frutas img:hover{
   transform: scale(1.15);
 }
 
 .FrutosSecos{
-  margin-left: 550px;
+  margin-left: 520px;
   margin-top: -100px;
 }
 .FrutosSecos img:hover{
@@ -57,7 +57,7 @@ margin-left: 450px;
 }
 
 .Verduras{
-    margin-left: 700px;
+    margin-left: 720px;
     margin-top: -140px;
   }
   .Verduras img:hover{
@@ -65,7 +65,7 @@ margin-left: 450px;
   }
 
   .Cereales{
-    margin-left: 850px;
+    margin-left: 900px;
     margin-top: -110px;
   }
   .Cereales img:hover{
@@ -103,14 +103,14 @@ margin-left: 450px;
   transform: scale(1.15);
 }
 .OpcionesFrutilla{
-  margin-top: -60px;
+  margin-top: -120px;
   margin-left: 440px;
 }
 .OpcionesFrutilla img:hover{
   transform: scale(1.15);
 }
 .OpcionesManzana{
-  margin-top: -20px;
+  margin-top: -120px;
   margin-left: 510px;
 }
 .OpcionesManzana img:hover{
@@ -219,16 +219,35 @@ margin-left: 450px;
   display: none;
 }
 
+.naranja2 {
+border: 200px solid rgba(0, 0, 0, .0);
+margin-left: 350px;
+margin-right: 0px;
+margin-top: -600px;
+}
 
 .VitaminaAnaranja{
   margin-left: 80px;
-  margin-top: -300px;
+  margin-top: -150px;
 }
 
 .CartelVerdeNaranja{
   margin-left: 550px;
-  margin-top: -320px;
+  margin-top: -365px;
 }
+
+#infoNaranja{
+  display: none;
+}
+
+.Limon2{
+  border: 2px solid blue;
+margin-top: -250px;
+margin-right: 500px;
+
+
+}
+
 
 .VitaminaClimon{
   margin-left: 80px;
@@ -239,6 +258,27 @@ margin-left: 450px;
   margin-left: 550px;
   margin-top: -320px;
 }
+
+#infoLimon {
+display:none;
+}
+
+
+#infoFrutilla{
+display: none;
+}
+
+
+.Frutilla2 {
+
+border: 2px solid rgba(0, 0, 0, .0);
+margin-top: -70px;
+margin-left: 500px,
+
+
+
+}
+
 
 .VitaminaEfrutilla{
   margin-left: 80px;
@@ -265,6 +305,7 @@ margin-left: 450px;
   margin-left: 1030px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  position: inherit;
 
 }
 
@@ -273,4 +314,62 @@ font-family: 'Open Sans', sans-serif;
 font-size: 25px;
 font-weight:bolder;
 
+}
+
+/* opciones de frutos */
+
+.OpcionesAlmendra{
+  margin-top: -120px;
+  margin-left: 505px;
+}
+.OpcionesAlmendra img:hover{
+  transform: scale(1.15);
+}
+.OpcionesNuez{
+  margin-top: -120px;
+  margin-left: 590px;
+}
+.OpcionesNuez img:hover{
+  transform: scale(1.15);
+}
+.OpcionesMani{
+  margin-top: -120px;
+  margin-left: 660px;
+}
+.OpcionesMani img:hover{
+  transform: scale(1.15);
+}
+
+/* opciones verduras */
+
+
+.OpcionesTomate{
+  margin-top: -120px;
+  margin-left: 650px;
+  width: 30;
+}
+.OpcionesTomate img:hover{
+  transform: scale(1.15);
+}
+.OpcionesBrocoli{
+  width: 50px;
+  margin-top: -120px;
+  margin-left: 700px;
+}
+.OpcionesBrocoli img:hover{
+  transform: scale(1.15);
+}
+.OpcionesFrutilla{
+  margin-top: -60px;
+  margin-left: 440px;
+}
+.OpcionesFrutilla img:hover{
+  transform: scale(1.15);
+}
+.OpcionesManzana{
+  margin-top: -20px;
+  margin-left: 510px;
+}
+.OpcionesManzana img:hover{
+  transform: scale(1.15);
 }

@@ -20,7 +20,7 @@
     </div>
 
     <div class="Plato">
-      <img class="ImagenPlato"src="img/plato.png" alt="Plato Principal">
+      <img class="ImagenPlato" src= "img/plato.png" alt="Plato Principal">
     </div>
 
 
@@ -64,45 +64,45 @@
 
     <div id="OpcionesFrutos">
       <div class="OpcionesAlmendra">
-        <a href="#almendra"><img onclick="Almendra();" src="img/almendraT.png" alt=""></a>
+        <a href="#almendra"><img onclick="Almendra(); SumarFruta('almendra')"  src="img/almendraT.png" alt=""></a>
       </div>
       <div class="OpcionesNuez">
-        <a href="#nuez"><img onclick="Nuez();" src="img/nuezT.png" alt=""></a>
+        <a href="#nuez"><img onclick="Nuez(); SumarFruta('nuez')" src="img/nuezT.png" alt=""></a>
       </div>
       <div class="OpcionesMani">
-        <a href="#mani"><img onclick="Mani();" src="img/maniT.png" alt=""></a>
+        <a href="#mani"><img onclick="Mani(); SumarFruta('mani')" src="img/maniT.png" alt=""></a>
       </div>
 
     </div>
 
     <div id="OpcionesVerduras">
       <div class="OpcionesTomate">
-        <a href="#tomate"><img onclick="Tomate();" src="img/tomateT.png" alt=""></a>
+        <a href="#tomate"><img onclick="Tomate(); SumarFruta('tomate')" src="img/tomateT.png" alt=""></a>
       </div>
       <div class="OpcionesBrocoli">
-        <a href="#brocoli"><img onclick="Brocoli();" src="img/brocoliT.png" alt=""></a>
+        <a href="#brocoli"><img onclick="Brocoli(); SumarFruta('brocoli')" src="img/brocoliT.png" alt=""></a>
       </div>
       <div class="OpcionesZanahoria">
-        <a href="#zanahoria"><img onclick="Zanahoria();" src="img/zanahoriaT.png" alt=""></a>
+        <a href="#zanahoria"><img onclick="Zanahoria(); SumarFruta('zanahoria')" src="img/zanahoriaT.png" alt=""></a>
       </div>
       <div class="OpcionesEspinaca">
-        <a href="#espinaca"><img onclick="Espinaca();" src="img/espinacaT.png" alt=""></a>
+        <a href="#espinaca"><img onclick="Espinaca(); SumarFruta('espinaca')" src="img/espinacaT.png" alt=""></a>
       </div>
 
     </div>
 
     <div id="OpcionesCereales">
       <div class="OpcionesTrigo">
-        <a href="#trigo"><img onclick="Trigo();" src="img/trigoT.png" alt=""></a>
+        <a href="#trigo"><img onclick="Trigo(); SumarFruta('trigo')" src="img/trigoT.png" alt=""></a>
       </div>
       <div class="OpcionesMaiz">
-        <a href="#maiz"><img onclick="Maiz();" src="img/maizT.png" alt=""></a>
+        <a href="#maiz"><img onclick="Maiz(); SumarFruta('maiz')" src="img/maizT.png" alt=""></a>
       </div>
       <div class="OpcionesArroz">
-        <a href="#arroz"><img onclick="Arroz();" src="img/arrozT.png" alt=""></a>
+        <a href="#arroz"><img onclick="Arroz(); SumarFruta('arroz')" src="img/arrozT.png" alt=""></a>
       </div>
       <div class="OpcionesAvena">
-        <a href="#avena"><img onclick="Avena();" src="img/avenaT.png" alt=""></a>
+        <a href="#avena"><img onclick="Avena(); SumarFruta('avena')" src="img/avenaT.png" alt=""></a>
       </div>
     </div>
 
@@ -110,14 +110,14 @@
       <div class="naranja2">
         <img src="img/naranjas.png" alt="">
       </div>
-      <div class="PlatoDelCostado">
-        <!-- <img src="img/platoNaranja.png" alt=""> -->
-      </div>
+
+      <div id="infoNaranja">
       <div class="VitaminaAnaranja">
         <img src="img/vitaminaA.png" alt="">
       </div>
       <div class="CartelVerdeNaranja">
         <img src="img/CartelVerdeVitaminaA.png" alt="">
+      </div>
       </div>
     </div>
 
@@ -139,14 +139,14 @@
     <div class="Limon2">
       <img src="img/limones.png" alt="">
     </div>
-    <div class="PlatoDelCostadoLimon">
-      <img src="img/platoLimon.png" alt="">
-    </div>
-    <div class="VitaminaClimon">
+
+    <div id="infoLimon">
+      <div class="VitaminaClimon">
       <img src="img/vitaminaC.png" alt="">
     </div>
     <div class="CartelVerdeLimon">
       <img src="img/CartelVerdeVitaminaC.png" alt="">
+    </div>
     </div>
   </div>
 
@@ -154,23 +154,20 @@
     <div class="Frutilla2">
       <img src="img/frutillas.png" alt="">
     </div>
-    <div class="PlatoDelCostadoFrutilla">
-      <img src="img/platoFrutilla.png" alt="">
-    </div>
+
+    <div id="infoFrutilla">
     <div class="VitaminaEfrutilla">
       <img src="img/vitaminaE.png" alt="">
     </div>
     <div class="CartelVerdeFrutilla">
       <img src="img/CartelVerdeVitaminaE.png" alt="">
     </div>
+    </div>
   </div>
 
   <div id="PlatoConFrutasYManzana">
     <div class="Manzana2">
       <img src="img/manzanas.png" alt="">
-    </div>
-    <div class="PlatoDelCostadoManzana">
-      <img src="img/platoManzana.png" alt="">
     </div>
     <div class="VitaminaPotasio">
       <img src="img/potasio.png" alt="">
@@ -184,9 +181,6 @@
     <div class="Nueces2">
       <img src="img/nueces.png" alt="">
     </div>
-    <div class="PlatoDelCostadoNuez">
-      <img src="img/platoManzana.png" alt="">
-    </div>
     <div class="VitaminaPotasio">
       <img src="img/potasio.png" alt="">
     </div>
@@ -195,155 +189,128 @@
     </div>
   </div>
 
-  <div id="PlatoAlmendras">
-    <div class="Almendras2">
-      <img src="img/almendras.png" alt="">
-    </div>
-    <div class="PlatoDelCostadoAlmendra">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoMani">
-    <div class="Mani2">
-      <img src="img/mani.png" alt="">
-    </div>
-    <div class="PlatoDelCostadoMani">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoTomate">
-    <div class="Tomate2">
-      <img src="img/tomates.png" alt="">
+    <div id="PlatoAlmendras">
+      <div class="Almendras2">
+        <img src="img/almendras.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoTomate">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoBrocoli">
-    <div class="Brocoli2">
-      <img src="img/brocoli.png" alt="">
+    <div id="PlatoMani">
+      <div class="Mani2">
+        <img src="img/mani.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoBrocoli">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoZanahoria">
-    <div class="Zanahoria2">
-      <img src="img/zanahorias.png" alt="">
+    <div id="PlatoTomate">
+      <div class="Tomate2">
+        <img src="img/tomates.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoZanahoria">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoEspinaca">
-    <div class="Espinaca2">
-      <img src="img/espinaca.png" alt="">
+    <div id="PlatoBrocoli">
+      <div class="Brocoli2">
+        <img src="img/brocoli.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoEspinaca">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoTrigo">
-    <div class="Trigo2">
-      <img src="img/trigo.png" alt="">
+    <div id="PlatoZanahoria">
+      <div class="Zanahoria2">
+        <img src="img/zanahorias.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoTrigo">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoMaiz">
-    <div class="Maiz2">
-      <img src="img/choclo.png" alt="">
+    <div id="PlatoEspinaca">
+      <div class="Espinaca2">
+        <img src="img/espinaca.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoMaiz">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoArroz">
-    <div class="Arroz2">
-      <img src="img/arroz.png" alt="">
+    <div id="PlatoTrigo">
+      <div class="Trigo2">
+        <img src="img/trigo.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoArroz">
-      <img src="img/platoManzana.png" alt="">
-    </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
-    </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
 
-  <div id="PlatoAvena">
-    <div class="Avena2">
-      <img src="img/avena.png" alt="">
+    <div id="PlatoMaiz">
+      <div class="Maiz2">
+        <img src="img/choclo.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="PlatoDelCostadoAvena">
-      <img src="img/platoManzana.png" alt="">
+
+    <div id="PlatoArroz">
+      <div class="Arroz2">
+        <img src="img/arroz.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="VitaminaPotasio">
-      <img src="img/potasio.png" alt="">
+
+    <div id="PlatoAvena">
+      <div class="Avena2">
+        <img src="img/avena.png" alt="">
+      </div>
+      <div class="VitaminaPotasio">
+        <img src="img/potasio.png" alt="">
+      </div>
+      <div class="CartelVerdePotasio">
+        <img src="img/CartelVerdePotasio.png" alt="">
+      </div>
     </div>
-    <div class="CartelVerdePotasio">
-      <img src="img/CartelVerdePotasio.png" alt="">
-    </div>
-  </div>
+
 
 
   </body>
