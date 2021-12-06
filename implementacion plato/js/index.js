@@ -95,7 +95,7 @@ function Manzana() {
   document.getElementById('PlatoAvena').style.display = 'none';
 }
 //
- function Nueces() {
+ function Nuez() {
    document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
    document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
    document.getElementById('PlatoConFrutas').style.display = 'none';
@@ -113,7 +113,7 @@ function Manzana() {
    document.getElementById('PlatoAvena').style.display = 'none';
  }
 
-function Almendras() {
+function Almendra() {
    document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
    document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
    document.getElementById('PlatoConFrutas').style.display = 'none';
@@ -314,3 +314,21 @@ vitaminaaText.innerText=parseInt(vitaminaaText.innerText) + frutaData.vitaminaa;
 calcioText.innerText=parseInt(calcioText.innerText) + frutaData.calcio;
 hierroText.innerText=parseInt(hierroText.innerText) + frutaData.hierro;
 }
+
+// HOVER DE ALIMENTOS
+
+// $("#naranjaH").hover(mouseEnter, mouseLeave);
+// function mouseEnter(){
+//   $("#infoNaranja").fadeln("fast").show();
+// };
+// function mouseLeave(){
+//   $("#infoNaranja").fadeln("fast").show();
+// };
+
+$(".naranja2").hover(mouseEnter, mouseLeave);
+    function mouseEnter() {
+         $("#infoNaranja").fadeIn( "fast" ).show();
+    };
+    function mouseLeave() {
+          $("#infoNaranja").fadeOut( "fast" );
+};

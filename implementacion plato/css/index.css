@@ -92,39 +92,22 @@ margin-left: 450px;
 
 .OpcionesNaranja{
   margin-top: -120px;
-  margin-left: 300px;
+  margin-left: 280px;
   margin-right: 980px;
 }
 .OpcionesNaranja img:hover{
   transform: scale(1.15);
 }
 .OpcionesLimon{
-  margin-top: -120px;
-  margin-left: 370px;
+  margin-top: -145px;
+  margin-left: 330px;
   margin-right: 930px;
 
 }
 .OpcionesLimon img:hover{
   transform: scale(1.15);
 }
-.OpcionesFrutilla{
-  margin-top: -120px;
-  margin-left: 440px;
-  margin-right: 870px;
 
-}
-.OpcionesFrutilla img:hover{
-  transform: scale(1.15);
-}
-.OpcionesManzana{
-  margin-top: -120px;
-  margin-left: 400px;
-  margin-right: 780px;
-
-}
-.OpcionesManzana img:hover{
-  transform: scale(1.15);
-}
 
 
 .naranja2{
@@ -133,6 +116,11 @@ margin-left: 550px;
 margin-right: 670px;
 margin-top: -400px;
 
+}
+
+#infoNaranja {
+display: block;
+position: relative;
 }
 
 .Limon2{
@@ -246,10 +234,6 @@ margin-right: 550px;
 .CartelVerdeNaranja{
   margin-left: 550px;
   margin-top: -365px;
-}
-
-#infoNaranja{
-  display: none;
 }
 
 
@@ -426,15 +410,15 @@ font-weight:bolder;
 }
 
 .OpcionesFrutilla{
-  margin-top: -60px;
-  margin-left: 440px;
+  margin-top: -67px;
+  margin-left: 400px;
 }
 .OpcionesFrutilla img:hover{
   transform: scale(1.15);
 }
 .OpcionesManzana{
-  margin-top: -20px;
-  margin-left: 510px;
+  margin-top: 13px;
+  margin-left: 460px;
 }
 .OpcionesManzana img:hover{
   transform: scale(1.15);
