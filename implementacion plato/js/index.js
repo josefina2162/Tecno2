@@ -158,9 +158,6 @@ function Tomate() {
   document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
   document.getElementById('PlatoTomate').style.display = 'block';
-  document.getElementById('PlatoBrocoli').style.display = 'none';
-  document.getElementById('PlatoZanahoria').style.display = 'none';
-  document.getElementById('PlatoEspinaca').style.display = 'none';
   document.getElementById('PlatoTrigo').style.display = 'none';
   document.getElementById('PlatoMaiz').style.display = 'none';
   document.getElementById('PlatoArroz').style.display = 'none';
@@ -175,10 +172,7 @@ function Brocoli() {
   document.getElementById('PlatoConNueces').style.display = 'none';
   document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
-  document.getElementById('PlatoTomate').style.display = 'none';
   document.getElementById('PlatoBrocoli').style.display = 'block';
-  document.getElementById('PlatoZanahoria').style.display = 'none';
-  document.getElementById('PlatoEspinaca').style.display = 'none';
   document.getElementById('PlatoTrigo').style.display = 'none';
   document.getElementById('PlatoMaiz').style.display = 'none';
   document.getElementById('PlatoArroz').style.display = 'none';
@@ -193,10 +187,7 @@ function Zanahoria() {
   document.getElementById('PlatoConNueces').style.display = 'none';
   document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
-  document.getElementById('PlatoTomate').style.display = 'none';
-  document.getElementById('PlatoBrocoli').style.display = 'none';
   document.getElementById('PlatoZanahoria').style.display = 'block';
-  document.getElementById('PlatoEspinaca').style.display = 'none';
   document.getElementById('PlatoTrigo').style.display = 'none';
   document.getElementById('PlatoMaiz').style.display = 'none';
   document.getElementById('PlatoArroz').style.display = 'none';
@@ -211,9 +202,6 @@ function Espinaca() {
   document.getElementById('PlatoConNueces').style.display = 'none';
   document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
-  document.getElementById('PlatoTomate').style.display = 'none';
-  document.getElementById('PlatoBrocoli').style.display = 'none';
-  document.getElementById('PlatoZanahoria').style.display = 'none';
   document.getElementById('PlatoEspinaca').style.display = 'block';
   document.getElementById('PlatoTrigo').style.display = 'none';
   document.getElementById('PlatoMaiz').style.display = 'none';
@@ -234,9 +222,6 @@ function Trigo() {
   document.getElementById('PlatoZanahoria').style.display = 'none';
   document.getElementById('PlatoEspinaca').style.display = 'none';
   document.getElementById('PlatoTrigo').style.display = 'block';
-  document.getElementById('PlatoMaiz').style.display = 'none';
-  document.getElementById('PlatoArroz').style.display = 'none';
-  document.getElementById('PlatoAvena').style.display = 'none';
 }
 
 function Maiz() {
@@ -251,10 +236,7 @@ function Maiz() {
   document.getElementById('PlatoBrocoli').style.display = 'none';
   document.getElementById('PlatoZanahoria').style.display = 'none';
   document.getElementById('PlatoEspinaca').style.display = 'none';
-  document.getElementById('PlatoTrigo').style.display = 'none';
   document.getElementById('PlatoMaiz').style.display = 'block';
-  document.getElementById('PlatoArroz').style.display = 'none';
-  document.getElementById('PlatoAvena').style.display = 'none';
 }
 
 function Arroz() {
@@ -269,10 +251,7 @@ function Arroz() {
   document.getElementById('PlatoBrocoli').style.display = 'none';
   document.getElementById('PlatoZanahoria').style.display = 'none';
   document.getElementById('PlatoEspinaca').style.display = 'none';
-  document.getElementById('PlatoTrigo').style.display = 'none';
-  document.getElementById('PlatoMaiz').style.display = 'none';
   document.getElementById('PlatoArroz').style.display = 'block';
-  document.getElementById('PlatoAvena').style.display = 'none';
 }
 
 function Avena() {
@@ -287,9 +266,6 @@ function Avena() {
   document.getElementById('PlatoBrocoli').style.display = 'none';
   document.getElementById('PlatoZanahoria').style.display = 'none';
   document.getElementById('PlatoEspinaca').style.display = 'none';
-  document.getElementById('PlatoTrigo').style.display = 'none';
-  document.getElementById('PlatoMaiz').style.display = 'none';
-  document.getElementById('PlatoArroz').style.display = 'none';
   document.getElementById('PlatoAvena').style.display = 'block';
 }
 

@@ -196,7 +196,7 @@ margin-right: 550px;
   display: none;
 }
 
-#PlatoAlmendras{
+#PlatoConAlmendras{
   display: none;
 }
 
@@ -438,4 +438,106 @@ font-weight:bolder;
 }
 .OpcionesManzana img:hover{
   transform: scale(1.15);
+}
+
+/* plato de verduras */
+
+#InfoTomate{
+  display: none;
+}
+
+#InfoBrocoli{
+  display: none;
+}
+
+#InfoZanahoria {
+  display:none;
+}
+
+#InfoEspinaca {
+display: none;
+}
+
+.Tomate2 {
+position: absolute;
+margin-left: 600px;
+margin-right: 670px;
+margin-top: -425px;
+
+
+}
+
+.Brocoli2 {
+  position: absolute;
+  margin-left: 600px;
+  margin-right: 670px;
+  margin-top: -250px;
+
+}
+
+.Zanahoria2 {
+  position: absolute;
+  margin-left: 680px;
+  margin-right: 670px;
+  margin-top: -320px;
+
+
+}
+
+.Espinaca2 {
+  position: absolute;
+  margin-left: 570px;
+  margin-right: 670px;
+  margin-top: -360px;
+
+
+}
+
+/* plato con cereales */
+
+#infoAvena{
+  display: none;
+}
+
+#infoMaiz {
+  display:none;
+}
+
+#infoTrigo {
+  display:none;
+}
+
+#infoArroz {
+  display:none;
+}
+
+.Trigo2 {
+  position: absolute;
+  margin-left: 660px;
+  margin-right: 670px;
+  margin-top: -425px;
+}
+
+.Maiz2 {
+
+  position: absolute;
+  margin-left: 600px;
+  margin-right: 670px;
+  margin-top: -280px;
+
+}
+
+.Avena2 {
+  position: absolute;
+  margin-left: 680px;
+  margin-right: 670px;
+  margin-top: -320px;
+
+}
+
+.Arroz2 {
+  position: absolute;
+  margin-left: 570px;
+  margin-right: 670px;
+  margin-top: -360px;
 }
