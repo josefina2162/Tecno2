@@ -59,6 +59,8 @@ margin-left: 450px;
 .Verduras{
     margin-left: 720px;
     margin-top: -140px;
+    margin-right: 500px;
+
   }
   .Verduras img:hover{
     transform: scale(1.15);
@@ -91,6 +93,7 @@ margin-left: 450px;
 .OpcionesNaranja{
   margin-top: -120px;
   margin-left: 300px;
+  margin-right: 980px;
 }
 .OpcionesNaranja img:hover{
   transform: scale(1.15);
@@ -98,6 +101,8 @@ margin-left: 450px;
 .OpcionesLimon{
   margin-top: -120px;
   margin-left: 370px;
+  margin-right: 930px;
+
 }
 .OpcionesLimon img:hover{
   transform: scale(1.15);
@@ -105,13 +110,17 @@ margin-left: 450px;
 .OpcionesFrutilla{
   margin-top: -120px;
   margin-left: 440px;
+  margin-right: 870px;
+
 }
 .OpcionesFrutilla img:hover{
   transform: scale(1.15);
 }
 .OpcionesManzana{
   margin-top: -120px;
-  margin-left: 510px;
+  margin-left: 400px;
+  margin-right: 780px;
+
 }
 .OpcionesManzana img:hover{
   transform: scale(1.15);
@@ -119,25 +128,33 @@ margin-left: 450px;
 
 
 .naranja2{
-  margin-left: 580px;
-  margin-top: -350px;
+  position: absolute;
+margin-left: 550px;
+margin-right: 670px;
+margin-top: -400px;
+
 }
 
 .Limon2{
+  position: absolute;
   margin-left: 680px;
-  margin-top: -370px;
-
+  margin-top: -400px;
+  margin-right: 550px;
 }
 
 .Frutilla2{
+  position: absolute;
   margin-left: 680px;
-  margin-top: -370px;
-
+  margin-top: -280px;
+margin-right: 550px;
 }
 
+
 .Manzana2{
-  margin-left: 630px;
-  margin-top: -330px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: -300px;
+  margin-right: 750px;
 }
 
 .PlatoDelCostado{
@@ -219,12 +236,7 @@ margin-left: 450px;
   display: none;
 }
 
-.naranja2 {
-border: 200px solid rgba(0, 0, 0, .0);
-margin-left: 350px;
-margin-right: 0px;
-margin-top: -600px;
-}
+
 
 .VitaminaAnaranja{
   margin-left: 80px;
@@ -240,13 +252,7 @@ margin-top: -600px;
   display: none;
 }
 
-.Limon2{
-  border: 2px solid blue;
-margin-top: -250px;
-margin-right: 500px;
 
-
-}
 
 
 .VitaminaClimon{
@@ -269,15 +275,7 @@ display: none;
 }
 
 
-.Frutilla2 {
 
-border: 2px solid rgba(0, 0, 0, .0);
-margin-top: -70px;
-margin-left: 500px,
-
-
-
-}
 
 
 .VitaminaEfrutilla{
@@ -300,41 +298,50 @@ margin-left: 500px,
   margin-top: -280px;
 }
 
+#infoManzana {
+display: none;
+}
+
+
 .cuadroD {
   margin-top: -530px;
   margin-left: 1030px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   position: inherit;
-
 }
 
 .cuadroD h3 {
 font-family: 'Open Sans', sans-serif;
 font-size: 25px;
 font-weight:bolder;
-
 }
 
 /* opciones de frutos */
 
 .OpcionesAlmendra{
   margin-top: -120px;
-  margin-left: 505px;
+  margin-left: 480px;
+  margin-right: 800px;
 }
 .OpcionesAlmendra img:hover{
   transform: scale(1.15);
 }
+
+
 .OpcionesNuez{
-  margin-top: -120px;
-  margin-left: 590px;
+  margin-top: -100px;
+  margin-left: 550px;
+  margin-right: 740px;
+
 }
 .OpcionesNuez img:hover{
   transform: scale(1.15);
 }
 .OpcionesMani{
-  margin-top: -120px;
-  margin-left: 660px;
+  margin-top: -40px;
+  margin-left: 630px;
+  margin-right: 660px;
 }
 .OpcionesMani img:hover{
   transform: scale(1.15);
@@ -346,19 +353,78 @@ font-weight:bolder;
 .OpcionesTomate{
   margin-top: -120px;
   margin-left: 650px;
+  margin-right: 630px;
   width: 30;
+
 }
 .OpcionesTomate img:hover{
   transform: scale(1.15);
 }
 .OpcionesBrocoli{
   width: 50px;
-  margin-top: -120px;
+  margin-top: -140px;
   margin-left: 700px;
+  margin-right: 550px;
+
 }
 .OpcionesBrocoli img:hover{
   transform: scale(1.15);
 }
+
+.OpcionesZanahoria{
+  margin-left: 780px;
+  margin-right: 530px;
+  margin-top: -65px;
+}
+.OpcionesZanahoria img:hover{
+  transform: scale(1.15);
+}
+
+.OpcionesEspinaca{
+  margin-left: 830px;
+  margin-right: 450px;
+  margin-top: 0px;
+}
+.OpcionesEspinaca img:hover{
+  transform: scale(1.15);
+}
+
+.OpcionesTrigo{
+  margin-left: 860px;
+  margin-right: 450px;
+  margin-top: -100px;
+}
+.OpcionesTrigo img:hover{
+  transform: scale(1.15);
+}
+
+.OpcionesMaiz{
+  margin-left: 900px;
+  margin-right: 400px;
+  margin-top: -150px;
+}
+.OpcionesMaiz img:hover{
+  transform: scale(1.15);
+}
+
+.OpcionesArroz{
+  margin-left: 970px;
+  margin-right: 350px;
+  margin-top: -70px;
+}
+.OpcionesArroz img:hover{
+  transform: scale(1.15);
+}
+
+.OpcionesAvena{
+  margin-left: 1020px;
+  margin-right: 300px;
+  margin-top: 0px;
+}
+.OpcionesAvena img:hover{
+  transform: scale(1.15);
+}
+
 .OpcionesFrutilla{
   margin-top: -60px;
   margin-left: 440px;

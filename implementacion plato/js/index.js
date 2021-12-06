@@ -30,9 +30,10 @@ function OpcionesParaCereales() {
 
 
 function Naranja() {
+
   document.getElementById('PlatoConFrutas').style.display = 'block';
   document.getElementById('PlatoConNueces').style.display = 'none';
-  document.getElementById('PlatoAlmendras').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
   document.getElementById('PlatoTomate').style.display = 'none';
   document.getElementById('PlatoBrocoli').style.display = 'none';
@@ -46,9 +47,10 @@ function Naranja() {
 }
 
 function Limon() {
+
   document.getElementById('PlatoConFrutasYLimon').style.display = 'block';
   document.getElementById('PlatoConNueces').style.display = 'none';
-  document.getElementById('PlatoAlmendras').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
   document.getElementById('PlatoTomate').style.display = 'none';
   document.getElementById('PlatoBrocoli').style.display = 'none';
@@ -62,9 +64,11 @@ function Limon() {
 }
 
 function Frutilla() {
+
   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'block';
+
   document.getElementById('PlatoConNueces').style.display = 'none';
-  document.getElementById('PlatoAlmendras').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
   document.getElementById('PlatoTomate').style.display = 'none';
   document.getElementById('PlatoBrocoli').style.display = 'none';
@@ -79,7 +83,7 @@ function Frutilla() {
 function Manzana() {
   document.getElementById('PlatoConFrutasYManzana').style.display = 'block';
   document.getElementById('PlatoConNueces').style.display = 'none';
-  document.getElementById('PlatoAlmendras').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'none';
   document.getElementById('PlatoTomate').style.display = 'none';
   document.getElementById('PlatoBrocoli').style.display = 'none';
@@ -91,203 +95,203 @@ function Manzana() {
   document.getElementById('PlatoAvena').style.display = 'none';
 }
 //
-// function Nueces() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'block';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
+ function Nueces() {
+   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+   document.getElementById('PlatoConFrutas').style.display = 'none';
+   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+   document.getElementById('PlatoConNueces').style.display = 'block';
+   document.getElementById('PlatoConAlmendras').style.display = 'none';
+   document.getElementById('PlatoMani').style.display = 'none';
+   document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+   document.getElementById('PlatoZanahoria').style.display = 'none';
+   document.getElementById('PlatoEspinaca').style.display = 'none';
+   document.getElementById('PlatoTrigo').style.display = 'none';
+   document.getElementById('PlatoMaiz').style.display = 'none';
+   document.getElementById('PlatoArroz').style.display = 'none';
+   document.getElementById('PlatoAvena').style.display = 'none';
+ }
+
+function Almendras() {
+   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+   document.getElementById('PlatoConFrutas').style.display = 'none';
+   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+   document.getElementById('PlatoConNueces').style.display = 'none';
+   document.getElementById('PlatoConAlmendras').style.display = 'block';
+   document.getElementById('PlatoMani').style.display = 'none';
+   document.getElementById('PlatoTomate').style.display = 'none';
+   document.getElementById('PlatoBrocoli').style.display = 'none';
+   document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+   document.getElementById('PlatoTrigo').style.display = 'none';
+   document.getElementById('PlatoMaiz').style.display = 'none';
+   document.getElementById('PlatoArroz').style.display = 'none';
+   document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+ function Mani() {
+   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+   document.getElementById('PlatoConFrutas').style.display = 'none';
+   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+   document.getElementById('PlatoConNueces').style.display = 'none';
+   document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'block';
+   document.getElementById('PlatoTomate').style.display = 'none';
+   document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+   document.getElementById('PlatoEspinaca').style.display = 'none';
+   document.getElementById('PlatoTrigo').style.display = 'none';
+   document.getElementById('PlatoMaiz').style.display = 'none';
+   document.getElementById('PlatoArroz').style.display = 'none';
+   document.getElementById('PlatoAvena').style.display = 'none';
+ }
 //
-// function Almendras() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'block';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Mani() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'block';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Tomate() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'block';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Brocoli() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'block';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Zanahoria() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'block';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Espinaca() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'block';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Trigo() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'block';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Maiz() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'block';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Arroz() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'block';
-//   document.getElementById('PlatoAvena').style.display = 'none';
-// }
-//
-// function Avena() {
-//   document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
-//   document.getElementById('PlatoConFrutas').style.display = 'none';
-//   document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-//   document.getElementById('PlatoConNueces').style.display = 'none';
-//   document.getElementById('PlatoAlmendras').style.display = 'none';
-//   document.getElementById('PlatoMani').style.display = 'none';
-//   document.getElementById('PlatoTomate').style.display = 'none';
-//   document.getElementById('PlatoBrocoli').style.display = 'none';
-//   document.getElementById('PlatoZanahoria').style.display = 'none';
-//   document.getElementById('PlatoEspinaca').style.display = 'none';
-//   document.getElementById('PlatoTrigo').style.display = 'none';
-//   document.getElementById('PlatoMaiz').style.display = 'none';
-//   document.getElementById('PlatoArroz').style.display = 'none';
-//   document.getElementById('PlatoAvena').style.display = 'block';
-// }
+function Tomate() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'block';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Brocoli() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'block';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Zanahoria() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'block';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Espinaca() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'block';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Trigo() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'block';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Maiz() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'block';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Arroz() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'block';
+  document.getElementById('PlatoAvena').style.display = 'none';
+}
+
+function Avena() {
+  document.getElementById('PlatoConFrutasYManzana').style.display = 'none';
+  document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
+  document.getElementById('PlatoConFrutas').style.display = 'none';
+  document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
+  document.getElementById('PlatoConNueces').style.display = 'none';
+  document.getElementById('PlatoConAlmendras').style.display = 'none';
+  document.getElementById('PlatoMani').style.display = 'none';
+  document.getElementById('PlatoTomate').style.display = 'none';
+  document.getElementById('PlatoBrocoli').style.display = 'none';
+  document.getElementById('PlatoZanahoria').style.display = 'none';
+  document.getElementById('PlatoEspinaca').style.display = 'none';
+  document.getElementById('PlatoTrigo').style.display = 'none';
+  document.getElementById('PlatoMaiz').style.display = 'none';
+  document.getElementById('PlatoArroz').style.display = 'none';
+  document.getElementById('PlatoAvena').style.display = 'block';
+}
 
 const AlimentosData= [
 {nombre:'frutilla',calorias:26, potasio: 85.6, vitaminaa:3.0, vitaminac:4.6, vitaminae:0.2, proteina:0.2, calcio:6.0, hierro:0.1, sodio:0.8},
