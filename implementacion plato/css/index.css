@@ -120,7 +120,7 @@ margin-top: -400px;
 
 #infoNaranja {
 display: block;
-position: relative;
+position: absolute;
 }
 
 .Limon2{
@@ -228,12 +228,15 @@ margin-right: 550px;
 
 .VitaminaAnaranja{
   margin-left: 80px;
-  margin-top: -150px;
+  margin-top: -400px;
+  position: absolute;
+
 }
 
 .CartelVerdeNaranja{
   margin-left: 550px;
-  margin-top: -365px;
+  margin-top: -500px;
+  position: absolute;
 }
 
 
@@ -241,12 +244,14 @@ margin-right: 550px;
 
 .VitaminaClimon{
   margin-left: 80px;
-  margin-top: -300px;
+  margin-top: -400px;
+  position: absolute;
 }
 
 .CartelVerdeLimon{
   margin-left: 550px;
-  margin-top: -320px;
+  margin-top: -500px;
+  position: absolute;
 }
 
 #infoLimon {
@@ -264,22 +269,26 @@ display: none;
 
 .VitaminaEfrutilla{
   margin-left: 80px;
-  margin-top: -300px;
+  margin-top: -400px;
+  position: absolute;
 }
 
 .CartelVerdeFrutilla{
   margin-left: 550px;
-  margin-top: -280px;
+  margin-top: -500px;
+  position: absolute;
 }
 
 .VitaminaPotasio{
   margin-left: 80px;
-  margin-top: -300px;
+  margin-top: -400px;
+  position: absolute;
 }
 
 .CartelVerdePotasio{
   margin-left: 550px;
-  margin-top: -280px;
+  margin-top: -500px;
+  position: absolute;
 }
 
 #infoManzana {
@@ -296,9 +305,64 @@ display: none;
 }
 
 .cuadroD h3 {
+color: #1C792B;
 font-family: 'Open Sans', sans-serif;
 font-size: 25px;
 font-weight:bolder;
+
+}
+
+.cuadroD h6 {
+  color: #1C792B;
+margin-top: -20px;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.CaloriasBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.PotasioBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.ProteinaBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-top: 5px;
+  margin-right: 200px;
+}
+
+.VitaminaABorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.VitaminaCBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.VitaminaEBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.SodioBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.CalcioBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
+}
+
+.HierroBorde{
+  border-bottom: 2px solid #1C792B;
+  margin-right: 200px;
 }
 
 /* opciones de frutos */
@@ -444,9 +508,9 @@ display: none;
 
 .Tomate2 {
 position: absolute;
-margin-left: 600px;
+margin-left: 670px;
 margin-right: 670px;
-margin-top: -425px;
+margin-top: -390px;
 
 
 }
@@ -524,4 +588,61 @@ margin-top: -425px;
   margin-left: 570px;
   margin-right: 670px;
   margin-top: -360px;
+}
+
+/* plato de cereales */
+
+.Mani2 {
+  position: absolute;
+  margin-left: 600px;
+  margin-right: 670px;
+  margin-top: -400px;
+}
+
+.casa2 {
+  position: absolute;
+  margin-left: 680px;
+  margin-top: -280px;
+  margin-right: 550px;
+}
+
+.Nueces2 {
+
+  position: absolute;
+  margin-left: 550px;
+  margin-top: -300px;
+  margin-right: 750px;
+
+}
+
+#infoMani {
+  display: none;
+}
+
+#casainfo {
+display: none;
+
+}
+
+#infoNueces{
+display: none;
+}
+
+.VitaminaE{
+  margin-left: 80px;
+  margin-top: -400px;
+  position: absolute;
+}
+
+.CalcioCartel {
+  margin-left: 80px;
+  margin-top: -400px;
+  position: absolute;
+}
+
+.CartelVerdeCalcio {
+  margin-left: 550px;
+  margin-top: -500px;
+  position: absolute;
+
 }

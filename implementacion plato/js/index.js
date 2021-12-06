@@ -101,8 +101,6 @@ function Manzana() {
    document.getElementById('PlatoConFrutas').style.display = 'none';
    document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
    document.getElementById('PlatoConNueces').style.display = 'block';
-   document.getElementById('PlatoConAlmendras').style.display = 'none';
-   document.getElementById('PlatoMani').style.display = 'none';
    document.getElementById('PlatoTomate').style.display = 'none';
   document.getElementById('PlatoBrocoli').style.display = 'none';
    document.getElementById('PlatoZanahoria').style.display = 'none';
@@ -118,9 +116,7 @@ function Almendra() {
    document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
    document.getElementById('PlatoConFrutas').style.display = 'none';
    document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-   document.getElementById('PlatoConNueces').style.display = 'none';
    document.getElementById('PlatoConAlmendras').style.display = 'block';
-   document.getElementById('PlatoMani').style.display = 'none';
    document.getElementById('PlatoTomate').style.display = 'none';
    document.getElementById('PlatoBrocoli').style.display = 'none';
    document.getElementById('PlatoZanahoria').style.display = 'none';
@@ -136,8 +132,6 @@ function Almendra() {
    document.getElementById('PlatoConFrutasYFrutilla').style.display = 'none';
    document.getElementById('PlatoConFrutas').style.display = 'none';
    document.getElementById('PlatoConFrutasYLimon').style.display = 'none';
-   document.getElementById('PlatoConNueces').style.display = 'none';
-   document.getElementById('PlatoConAlmendras').style.display = 'none';
   document.getElementById('PlatoMani').style.display = 'block';
    document.getElementById('PlatoTomate').style.display = 'none';
    document.getElementById('PlatoBrocoli').style.display = 'none';
@@ -274,7 +268,7 @@ const AlimentosData= [
 {nombre:'limon',calorias:29, potasio: 138, vitaminaa:1.0, vitaminac:53.0, vitaminae:0.2, proteina:1.1, calcio:26.0, hierro:0.6, sodio:2.0},
 {nombre:'naranja',calorias:86, potasio: 166, vitaminaa:0, vitaminac:27.7, vitaminae:0.2, proteina:1.7, calcio:37.0, hierro:0.15, sodio:2.0},
 {nombre:'manzana',calorias:42, potasio: 85.6, vitaminaa:3.0, vitaminac:4.7, vitaminae:0.2, proteina:0.2, calcio:6.0, hierro:0.1, sodio:0.8},
-{nombre:'almendra',calorias:7, potasio: 0.21, vitaminaa:0, vitaminac:0, vitaminae:0.007, proteina:6, calcio:0.075, hierro:0.01, sodio:0},
+{nombre:'almendra',calorias:7, potasio: 0.21, vitaminaa:0, vitaminac:0, vitaminae:30, proteina:6, calcio:0.075, hierro:0.01, sodio:0},
 {nombre:'nuez',calorias:24, potasio: 0.56, vitaminaa:0, vitaminac:0, vitaminae:0.11, proteina:0.56, calcio:3.76, hierro:0.10, sodio:10.92},
 {nombre:'mani',calorias:11, potasio: 105, vitaminaa:0, vitaminac:0, vitaminae:0.007, proteina:27, calcio:92, hierro:4.6, sodio:18},
 {nombre:'tomate',calorias:14, potasio: 190, vitaminaa:42, vitaminac:13.7, vitaminae:0.5, proteina:0.2, calcio:20, hierro:0.2, sodio:4.0},
@@ -317,18 +311,122 @@ hierroText.innerText=parseInt(hierroText.innerText) + frutaData.hierro;
 
 // HOVER DE ALIMENTOS
 
-// $("#naranjaH").hover(mouseEnter, mouseLeave);
-// function mouseEnter(){
-//   $("#infoNaranja").fadeln("fast").show();
-// };
-// function mouseLeave(){
-//   $("#infoNaranja").fadeln("fast").show();
-// };
-
 $(".naranja2").hover(mouseEnter, mouseLeave);
     function mouseEnter() {
          $("#infoNaranja").fadeIn( "fast" ).show();
     };
     function mouseLeave() {
           $("#infoNaranja").fadeOut( "fast" );
+};
+
+$(".Limon2").hover(mouseEnter2, mouseLeave2);
+    function mouseEnter2() {
+         $("#infoLimon").fadeIn( "fast" ).show();
+    };
+    function mouseLeave2() {
+          $("#infoLimon").fadeOut( "fast" );
+};
+
+$(".Frutilla2").hover(mouseEnter3, mouseLeave3);
+    function mouseEnter3() {
+         $("#infoFrutilla").fadeIn( "fast" ).show();
+    };
+    function mouseLeave3() {
+          $("#infoFrutilla").fadeOut( "fast" );
+};
+
+$(".Manzana2").hover(mouseEnter4, mouseLeave4);
+    function mouseEnter4() {
+         $("#infoManzana").fadeIn( "fast" ).show();
+    };
+    function mouseLeave4() {
+          $("#infoManzana").fadeOut( "fast" );
+};
+
+$(".Nueces2").hover(mouseEnter5, mouseLeave5);
+    function mouseEnter5() {
+         $("#infoNueces").fadeIn( "fast" ).show();
+    };
+    function mouseLeave5() {
+          $("#infoNueces").fadeOut( "fast" );
+};
+
+$(".casa2").hover(mouseEnter6, mouseLeave6);
+    function mouseEnter6() {
+         $("#casainfo").fadeIn( "fast" ).show();
+    };
+    function mouseLeave6() {
+          $("#casainfo").fadeOut( "fast" );
+};
+
+$(".Mani2").hover(mouseEnter7, mouseLeave7);
+    function mouseEnter7() {
+         $("#infoMani").fadeIn( "fast" ).show();
+    };
+    function mouseLeave7() {
+          $("#infoMani").fadeOut( "fast" );
+};
+
+$(".Tomate2").hover(mouseEnter8, mouseLeave8);
+    function mouseEnter8() {
+         $("#InfoTomate").fadeIn( "fast" ).show();
+    };
+    function mouseLeave8() {
+          $("#InfoTomate").fadeOut( "fast" );
+};
+
+$(".Brocoli2").hover(mouseEnter9, mouseLeave9);
+    function mouseEnter9() {
+         $("#InfoBrocoli").fadeIn( "fast" ).show();
+    };
+    function mouseLeave9() {
+          $("#InfoBrocoli").fadeOut( "fast" );
+};
+
+$(".Zanahoria2").hover(mouseEnter10, mouseLeave10);
+    function mouseEnter10() {
+         $("#InfoZanahoria").fadeIn( "fast" ).show();
+    };
+    function mouseLeave10() {
+          $("#InfoZanahoria").fadeOut( "fast" );
+};
+
+$(".Espinaca2").hover(mouseEnter11, mouseLeave11);
+    function mouseEnter11() {
+         $("#InfoEspinaca").fadeIn( "fast" ).show();
+    };
+    function mouseLeave11() {
+          $("#InfoEspinaca").fadeOut( "fast" );
+};
+
+$(".Trigo2").hover(mouseEnter12, mouseLeave12);
+    function mouseEnter12() {
+         $("#infoTrigo").fadeIn( "fast" ).show();
+    };
+    function mouseLeave12() {
+          $("#infoTrigo").fadeOut( "fast" );
+};
+
+$(".Maiz2").hover(mouseEnter13, mouseLeave13);
+    function mouseEnter13() {
+         $("#infoMaiz").fadeIn( "fast" ).show();
+    };
+    function mouseLeave13() {
+          $("#infoMaiz").fadeOut( "fast" );
+};
+
+$(".Arroz2").hover(mouseEnter14, mouseLeave14);
+    function mouseEnter14() {
+         $("#infoArroz").fadeIn( "fast" ).show();
+    };
+    function mouseLeave14() {
+          $("#infoArroz").fadeOut( "fast" );
+};
+
+$(".Avena2").hover(mouseEnter15, mouseLeave15);
+    function mouseEnter15() {
+         $("#infoAvena").fadeIn( "fast" ).show();
+    };
+    function mouseLeave15() {
+          $("#infoAvena").fadeOut( "fast" );
 };
